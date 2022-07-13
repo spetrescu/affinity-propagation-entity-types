@@ -15,7 +15,7 @@ for line in lines:
 num_of_variables = len(variables)
 print("Number of variables subjected to analysis: ", num_of_variables)
 variables = list(set(variables))
-variables = variables[:100]
+#variables = variables[:50]
 num_of_variables = len(variables)
 print("Number of variables (no duplicates) subjected to analysis: ", num_of_variables, "\n")
 words = np.asarray(variables)
